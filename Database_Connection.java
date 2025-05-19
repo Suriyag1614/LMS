@@ -10,7 +10,7 @@ Statement stmt=null;
         initComponents();
         try{
             Class.forName("org.sqlite.JDBC");
-            c=DriverManager.getConnection("jdbc:sqlite:D:\\249046-1\\sqlite\\studenttable.db [ on Default schema]");
+            c=DriverManager.getConnection("jdbc:sqlite:D:\\249059\\sqlite\\studenttable.db [ on Default schema]");
             if(c!=null){
                 System.out.println("database connected .......... Sucessfully");
                 stmt=c.createStatement();
