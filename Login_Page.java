@@ -4,7 +4,7 @@ import java.util.Scanner;
   import javax.swing.JOptionPane;
 /**
  *
- * @author 249057
+ * @author 249059,249057
  */
 public class Login extends javax.swing.JFrame {
          
